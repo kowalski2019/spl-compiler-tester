@@ -1,0 +1,10 @@
+type v =  int; 
+proc main () {
+	var i: v; 
+add(5, 3); 
+}
+
+proc add( ref i: int, j :int) {
+
+}
+

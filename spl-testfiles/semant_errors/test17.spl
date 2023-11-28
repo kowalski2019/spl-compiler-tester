@@ -1,0 +1,9 @@
+proc add(i: int, j :int) {
+var k : int;
+k:=i+j;
+}
+
+
+proc main () {
+ add(8,9,0);
+}

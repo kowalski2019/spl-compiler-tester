@@ -1,0 +1,66 @@
+type myInt = int;
+
+type vektor = array['\n'] of myInt;
+
+type matrix = array [8] of array [8] of int;
+
+type tensor = array [0x10] of matrix;
+
+
+proc main() {
+
+var a : array[9] of  array[9] of array[9] of array[9] of int;
+var i : int;
+//i:= a<a;
+//i:=a;
+a[1][a][3]:=i;
+}
+//proc main () {
+    // Variable Declarations
+  //var i : int;
+  //var j : myInt;
+  //var k : array [10] of myInt;
+  //var l : array [8] of array [8] of int;
+  //var m : array [5] of vektor;
+  //var n : vektor;
+  //var x : vektor;
+  //var t : tensor;
+
+  //j:=x+k[0]+5+8-1+k[2];
+  //j:=x+k[0]+5+8-1+k[2];
+  //l[5]:=7+k[0]+5+8-1+k[2];
+  //  j:=t+t;
+
+ //check(m[0][007],4,-2,135);
+ //check(m[9][007], 4,-2,135);
+ // add(n,i,x);
+ //check(k[0],l[2][2],t,k[4]);
+
+                                             
+//}
+
+proc check(i: int, j: int, ref expectedI : tensor, expectedJ : int) {
+      // if (expectedI # expectedI){}
+        //if (j # expectedJ){}
+          
+}
+
+proc add( ref n : vektor,ref i : int,ref x :vektor) {
+    if(n[2] = 4) {
+          if(i > 5) {
+                a(n,i);
+                 if(5 # 2){
+                    b(x,i,6);
+                 }
+             }
+
+    }
+}
+
+proc a(ref m : vektor, n : int){
+}
+
+proc b(ref m : vektor, n : int, o : int){
+
+}
+

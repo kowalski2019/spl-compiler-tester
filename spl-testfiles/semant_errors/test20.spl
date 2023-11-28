@@ -1,0 +1,8 @@
+
+type v = array [10] of int; 
+proc main() {
+	var i : int ;
+	var j : v;  
+	i := j+j; 
+	
+}

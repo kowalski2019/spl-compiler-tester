@@ -1,0 +1,22 @@
+
+proc generateVariableName(ref entry: DeBrujinEntry, n: int) {
+	var length: int;
+	var primes: int;
+
+	entry[2] := (n - ((n / 26) * 26)) + 'a';
+
+	primes := n / 26;
+	length := 0;
+	while (primes # 0) {
+		length := length + 1;
+		primes := primes / 10;
+	}
+
+	entry[1] := length + 1;
+	primes := n / 26;
+	while (primes # 0) {
+		entry[2 + length] := primes - ((primes / 10) * 10) + '0';
+		primes := primes / 10;
+		length := length - 1;
+	}
+} 

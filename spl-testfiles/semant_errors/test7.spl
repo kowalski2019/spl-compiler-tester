@@ -1,0 +1,10 @@
+proc add(i:int,j:int) {
+
+var s: int;
+var s: int;
+
+s:=10;
+}
+
+proc main(){
+}

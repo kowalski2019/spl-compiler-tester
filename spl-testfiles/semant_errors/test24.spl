@@ -1,0 +1,7 @@
+
+proc main() {
+	var i : array [19] of int; 
+	var j : int; 	
+	var k : array [19] of int; 
+	j := i [k]; 
+}

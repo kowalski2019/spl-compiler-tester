@@ -1,0 +1,11 @@
+type a = int;
+proc main() {
+
+var y : int;
+
+
+var x : int;
+a:=x;
+
+
+}

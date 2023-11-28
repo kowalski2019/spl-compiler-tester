@@ -1,0 +1,10 @@
+type A2 = array[10] of int;
+
+proc z(a : int,b : int){
+
+}
+proc main() {
+var x:int;
+var y:int;
+x:=z;
+}

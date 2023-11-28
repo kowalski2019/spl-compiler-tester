@@ -1,0 +1,7 @@
+type a = int; 
+
+proc main() { 
+var b : a; 
+b();
+
+}

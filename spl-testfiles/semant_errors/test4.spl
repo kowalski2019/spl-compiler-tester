@@ -1,0 +1,6 @@
+type main =  int; 
+type b = array [9] of main;
+proc maina(s:b){}
+proc main() {
+
+}

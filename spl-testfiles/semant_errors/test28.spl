@@ -1,0 +1,10 @@
+type i  = int;
+type matrix = array[9] of int;
+type vector = array[9] of array[9] of matrix;
+
+ proc add(i : i) {
+   var s : matrix;
+      s := s[s];                       
+ }
+
+proc main(){}

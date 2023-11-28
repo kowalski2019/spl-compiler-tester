@@ -1,0 +1,7 @@
+proc main() {
+	var i : int;
+    var c : int;
+    var a: array[2] of int;
+    c[0]:=3;
+	i := i [9]; 
+}

@@ -1,0 +1,15 @@
+type A1 = array [10] of int;
+type A2 = array [8] of array [12] of int;
+type A3 = array [14] of array [9] of array [15] of int;
+type A4 = array[15] of A3;
+type A5 = array[8] of array[23] of A4;
+
+proc main () {
+var i: int;
+  add(i , i);
+}
+
+proc add(i: int,ref j :A4) {
+
+}
+

@@ -1,0 +1,13 @@
+
+type x= int;
+
+proc doSome(){
+ var a: int;
+ var b: doSome;
+}
+proc main() {
+var r: int;
+var s: main;
+var t: hallo;
+
+}

@@ -1,0 +1,30 @@
+proc summe(i:int){
+
+}
+
+proc main(){
+    var x : int;
+    var y : int;
+
+   x:=2;
+   y:=100;
+
+     if(x=100){
+         if(x>100){
+             if(x<100){
+                 if(y>100){
+
+                 }else{
+                     if(y>21){
+                         if(y<200){
+                             if(2){
+
+                             }
+                         }
+                     }
+                 }
+             }
+         }
+     }
+}
+

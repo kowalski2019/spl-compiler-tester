@@ -1,0 +1,16 @@
+
+type vector = array [10] of int;
+
+proc main(){
+
+var y : vector;
+var z : int;
+
+var x : int;
+
+if(8=8){}
+z:=2+6-7+1+9-(2-3+5+y+7*9);
+x:= y;
+
+
+}

@@ -1,0 +1,8 @@
+type x = array [12] of int;
+
+proc main () {
+var y: x;
+y:=y;
+
+
+}
