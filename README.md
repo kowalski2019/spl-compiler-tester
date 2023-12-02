@@ -11,7 +11,8 @@ export SPL_COMPILER_CONF="java:/home/dummy/compilerbau/java/target"
 ```
 chmod +x setup.sh && ./setup.sh
 ```
-You can now run the generated file __run_tests.sh__
+
+## You can now run the generated file __run_tests.sh__
 
 Eg:
 
