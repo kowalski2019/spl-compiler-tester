@@ -15,6 +15,19 @@ You can now run the generated file __run_tests.sh__
 
 Eg:
 
+Run scanner tests
 ```
-./run_tests.sh --parse
+./run_tests.sh tokens
 ```
+
+Run parser tests
+```
+./run_tests.sh parse
+```
+
+Run semant tests
+```
+./run_tests.sh semant
+```
+
+...
