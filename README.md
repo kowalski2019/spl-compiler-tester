@@ -16,12 +16,12 @@ chmod +x setup.sh && ./setup.sh
 
 Eg:
 
-Run scanner tests
+Run 'scanner' tests
 ```
 ./run_tests.sh tokens
 ```
 
-Run parser tests
+Run 'parser' tests
 ```
 ./run_tests.sh parse
 ```
