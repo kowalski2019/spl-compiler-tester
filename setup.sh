@@ -5,6 +5,19 @@
 '
 curr_dir=`pwd`
 
+if [ -z "$SPL_COMPILER_CONF" ]; then
+    echo "The SPL_COMPILER_CONF variable does not exists or is empty please set by doing this: "
+    echo -e "eg: export SPL_COMPILER_CONF=\"java:/home/dummy/compilerbau/java/target\""
+    echo "Then you can run the script."
+    exit 0
+fi
+
+if [ ! -f "$curr_dir/tester_template.sh" ]; then
+    echo "The 'tester_template.sh' file is not present."
+    echo "Setup cannot continue bye!"
+    exit 0
+fi
+
 comp_lang=`echo $SPL_COMPILER_CONF | cut -d: -f1`
 comp_path=`echo $SPL_COMPILER_CONF | cut -d: -f2`
 
@@ -19,4 +32,9 @@ else
 	-e "s/__comp_lang__/c/" "$curr_dir/tester_template.sh" | grep -v -e "$to_rm_0" -e "${to_rm_1}.*" > "$curr_dir/run_tests.sh"
 fi
 
-chmod +x "$curr_dir/run_tests.sh" && echo "Happy Hacking!"
+chmod +x "$curr_dir/run_tests.sh"
+
+echo "You can now run your tests by executing the script 'run_tests.sh' ."
+echo "Make sure all tests directories and machine references are present!"
+echo "Happy Hacking!"
+
