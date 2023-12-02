@@ -5,6 +5,19 @@ curr_dir=`pwd`
 
 trap 'echo "removing directory $tmpdir ..." && rm -rf "${tmpdir}"' INT TERM
 
+if [ ! -d "$curr_dir/eco32tools" ]; then
+    echo "The 'eco32tools' directory does not exists"
+    echo "Tester cannot continue bye!".
+    exit 0
+fi
+
+if [ ! -d "$curr_dir/spl-testfiles" ]; then
+    echo "The 'spl-testfiles' directory does not exits"
+    echo "Tester cannot continue bye!"
+    exit 0
+fi
+
+
 help(){
 
     cat <<EOF
