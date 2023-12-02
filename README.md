@@ -26,9 +26,27 @@ Run parser tests
 ./run_tests.sh parse
 ```
 
-Run semant tests
+Run 'absyn' tests
+```
+./run_tests.sh absyn
+```
+
+Run 'tables' tests
+```
+./run_tests.sh tables
+```
+
+Run 'semant' tests
 ```
 ./run_tests.sh semant
 ```
 
-...
+Run 'vars' tests
+```
+./run_tests.sh vars
+```
+
+Run 'codegen' tests
+```
+./run_tests.sh codegen
+```
