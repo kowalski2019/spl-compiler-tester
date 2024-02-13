@@ -1,0 +1,14 @@
+//
+// and_or_test.spl -- 
+//
+
+
+proc main() {
+  var s: int;
+  var t: int;
+
+  s := 0 | 1;
+  printi(s)
+  t := 1 & s;
+  printi(t);
+}
